@@ -26,57 +26,45 @@ Follow these steps to set up and use ChatWise:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/chatwise.git
 cd chatwise
-```
 
 ### 2. Set Up the Environment
 
-Create and activate a virtual environment:
+Create and activate a virtual environment
 
 - **On Windows:**
-    ```bash
+
     python -m venv env
     env\Scripts\activate
-    ```
+
 - **On Mac/Linux:**
-    ```bash
+
     python3 -m venv env
     source env/bin/activate
-    ```
 
-Install the required packages:
-
-```bash
+**Install the required packages:**
 pip install -r requirements.txt
-```
+
 
 ### 3. Add Your Together API Key
 
 Create a `.env` file in the project root and add your Together API key:
 
-```
 TOGETHER_API_KEY=your_together_api_key_here
-```
 
 You can get your API key from [Together.ai API Keys](https://api.together.xyz/settings/api-keys).
 
 ### 4. Start the Flask App
 
 Run the Flask application:
-
-```bash
 python app.py
-```
 
 ### 5. Create a Public Tunnel
 
 Open a new terminal and run:
 
-```bash
-cloudflared tunnel --url http://localhost:5000
-```
+cloudflared tunnel --url http://localhost:5000  #Replace **http://localhost:5000** with your local server’s URL
 
 Copy the generated `https://...trycloudflare.com` URL.
 
@@ -87,11 +75,9 @@ Copy the generated `https://...trycloudflare.com` URL.
 3. Join the sandbox by sending the join code to the Twilio-provided number.
 4. Under **"When a message comes in"**, set your webhook URL to:
 
-     ```
      https://your-cloudflared-url/webhook
-     ```
 
-     (Replace `your-cloudflared-url` with the URL from step 5.)  
+     (Replace `your-cloudflared-url` with the URL)  
      Choose **POST** as the method.
 
 ### 7. Start Chatting!
@@ -112,20 +98,14 @@ chatwise/
 ├── requirements.txt     # Python dependencies
 ```
 
----
-
 ## Notes
 
-- **Security:** Do not push your `.env` file to GitHub.
 - **Purpose:** This project is for development and learning. For production, secure your API and use proper hosting.
 
----
 
 ## License
 
 This project is open-source under the MIT License.
-
----
 
 ## Acknowledgements
 
