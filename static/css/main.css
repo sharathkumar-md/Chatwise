@@ -1,36 +1,30 @@
-body, html {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
     margin: 0;
-    font-family: sans-serif;
-    background-color: lightblue;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.content {
-    margin: 0 auto;
-    width: 400px;
-}
-
-table, td, th {
-    border: 1px solid #aaa;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th {
-    height: 30px;
-}
-
-td {
+.container {
     text-align: center;
-    padding: 5px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
 }
 
-.form {
-    margin-top: 20px;
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
 }
 
-#content {
-    width: 70%;
+.status {
+    color: green;
+    font-weight: bold;
 }
