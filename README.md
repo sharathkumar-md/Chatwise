@@ -65,7 +65,7 @@ python app.py
 Open a new terminal and run:
 
 cloudflared tunnel --url http://localhost:5000  
-<pre> #Replace **http://localhost:5000** with your local server’s URL </pre>
+<pre> Replace http://localhost:5000 with your local server’s URL </pre>
 
 Copy the generated `https://...trycloudflare.com` URL.
 
