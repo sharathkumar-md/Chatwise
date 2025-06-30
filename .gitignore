@@ -1,3 +1,4 @@
+cloudflared.exe
 .env
 __pycache__/
 env/
@@ -5,4 +6,3 @@ env/
 .DS_Store
 .vscode/
 .idea/
-cloudflared.exe
