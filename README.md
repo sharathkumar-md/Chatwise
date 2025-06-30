@@ -1,4 +1,4 @@
-# ChatWise – WhatsApp Chatbot using Flask, Twilio, and Together.ai
+# ChatWise – WhatsApp Chatbot
 
 ChatWise is a simple yet powerful chatbot that allows users to interact with an AI assistant over WhatsApp. It uses Flask for the backend, Twilio's WhatsApp Sandbox for messaging, and Together.ai's API for AI responses.
 
