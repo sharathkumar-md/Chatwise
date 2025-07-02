@@ -9,7 +9,7 @@ load_dotenv()
 
 # Debug: print loaded API key (only the first 6 chars for safety)
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
-print(f"✅ TOGETHER_API_KEY loaded: {TOGETHER_API_KEY[:6]}..." if TOGETHER_API_KEY else "❌ TOGETHER_API_KEY NOT found!")
+print(f"TOGETHER_API_KEY loaded: {TOGETHER_API_KEY[:6]}..." if TOGETHER_API_KEY else "TOGETHER_API_KEY NOT found!")
 
 # Debug: print all environment variables starting with 'TOGETHER'
 for k, v in os.environ.items():
