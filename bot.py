@@ -9,9 +9,9 @@ print("Together API Key:", TOGETHER_API_KEY)
 
 
 if not TOGETHER_API_KEY:
-    print("❌ TOGETHER_API_KEY not found. Please check your .env file.")
+    print("TOGETHER_API_KEY not found. Please check your .env file.")
 else:
-    print("✅ TOGETHER_API_KEY loaded.")
+    print("TOGETHER_API_KEY loaded.")
 
 def generate_reply(message):
     try:
