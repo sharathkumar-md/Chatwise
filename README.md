@@ -27,7 +27,6 @@ Follow these steps to set up and use ChatWise:
 ### 1. Clone the Repository
 
 git clone https://github.com/your-username/chatwise.git
-cd chatwise
 
 ### 2. Set Up the Environment
 
