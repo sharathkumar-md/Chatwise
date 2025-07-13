@@ -54,7 +54,7 @@ TOGETHER_API_KEY=your_together_api_key_here
 
 You can get your API key from [Together.ai API Keys](https://api.together.xyz/settings/api-keys)
 
-    Note: You can integrate any other API of your choice
+    **Note:** You can integrate any other API of your choice
 
 ### 4. Start the Flask App
 
